@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id934683">
+  <layers>
+    <layer id="id717490">
+      <actors>
+        <actor id="id986945" prototype="id735769">
+          <attributes>
+            <point id="position">
+              <real id="x">197</real>
+              <real id="y">138</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id530284" class="DisplayTextBehavior" enabled="true">
+              <attributes>
+                <text id="name">score display</text>
+                <text id="bundleName">DisplayText.behavior</text>
+                <text id="text">Score:</text>
+                <text id="font">Cambay</text>
+                <real id="size">35</real>
+                <index id="alignment">1</index>
+                <boolean id="wrap">false</boolean>
+                <color id="color">
+                  <real id="red">0</real>
+                  <real id="green">0</real>
+                  <real id="blue">0</real>
+                  <real id="alpha">1</real>
+                </color>
+                <real id="offsetx">0</real>
+                <real id="offsety">0</real>
+                <index id="space">0</index>
+                <index id="directionSpace">0</index>
+                <angle id="direction">0</angle>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id550722" prototype="id103296">
+          <attributes>
+            <point id="position">
+              <real id="x">271</real>
+              <real id="y">137</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id295644" class="DisplayTextBehavior" enabled="true">
+              <attributes>
+                <text id="name">score display</text>
+                <text id="bundleName">DisplayText.behavior</text>
+                <text id="text">
+                  <expression>
+                    <reference keypath="game.attributes.id854469" />
+                  </expression>
+                </text>
+                <text id="font">Cambay</text>
+                <real id="size">35</real>
+                <index id="alignment">1</index>
+                <boolean id="wrap">false</boolean>
+                <color id="color">
+                  <real id="red">0</real>
+                  <real id="green">0</real>
+                  <real id="blue">0</real>
+                  <real id="alpha">1</real>
+                </color>
+                <real id="offsetx">0</real>
+                <real id="offsety">0</real>
+                <index id="space">0</index>
+                <index id="directionSpace">0</index>
+                <angle id="direction">0</angle>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id719556" prototype="id490885">
+          <attributes>
+            <point id="position">
+              <real id="x">428</real>
+              <real id="y">55</real>
+            </point>
+            <size id="size">
+              <real id="width">184</real>
+              <real id="height">123.333333333333</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id439087" prototype="id111014">
+          <attributes>
+            <point id="position">
+              <real id="x">270</real>
+              <real id="y">224</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">GAME OVER</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">568</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">568</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">488</real>
+        <real id="height">260</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
